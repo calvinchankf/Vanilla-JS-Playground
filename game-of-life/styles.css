@@ -1,0 +1,36 @@
+body {
+	/* font-family: sans-serif;
+	font-size: 16px;
+	margin: 0px; */
+}
+
+#next-button {
+	color: cadetblue;
+	margin-top: 16px;
+}
+
+#game-board {
+	display: block;
+	width: 400px;
+}
+
+.row {
+	display: flex;
+}
+.row:last-child {
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.cell {
+	height: 19px;
+	width: 19px;
+	border-top: 1px solid rgb(128, 128, 128);
+	border-left: 1px solid rgb(128, 128, 128);
+}
+.cell:last-child {
+    border-right: 1px solid rgb(128, 128, 128);
+}
+
+.colored {
+	background-color: cadetblue;
+}
