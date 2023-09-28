@@ -1,4 +1,4 @@
 Just for fun
 =====
 
-<https://calvinchankf.com/vanilla-js-playground>
+<https://calvinchankf.com/Vanilla-JS-Playground/>
