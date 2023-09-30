@@ -6,6 +6,9 @@ body {
 a {
     display: block;
 }
+a:visited {
+    color: darkgray;
+}
 
 header {
     background-color: #4267B2;
@@ -13,6 +16,9 @@ header {
     font-size: x-large;
     position: sticky;
     top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header > div {
