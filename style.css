@@ -1,3 +1,28 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
 a {
     display: block;
+}
+
+header {
+    background-color: #4267B2;
+    padding: 1rem;
+    font-size: x-large;
+    position: sticky;
+    top: 0rem;
+}
+
+header > div {
+    color: white;
+}
+
+section > a {
+    margin: 1rem 1rem 1rem 1rem;
+    background-color: white;
+    padding: 1rem;
+    text-decoration: none;
+    color: gray;
 }
